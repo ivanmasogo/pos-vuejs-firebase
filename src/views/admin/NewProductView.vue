@@ -34,7 +34,7 @@ const submitHandler = async data => {
 </script>
 
 <template lang="pug">
-div
+div.mt-10.mx-5
   Link(to="products") Volver 
   h1(class="text-4xl font-black my-10") Nuevo Producto
   div(class="flex justify-center bg-white shadow")
