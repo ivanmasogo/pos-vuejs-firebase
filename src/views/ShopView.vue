@@ -11,7 +11,7 @@ const { filteredProducts, noResults } = storeToRefs(products)
 
 <template lang="pug"> 
 MainNav
-main(class="pt-10 lg:pt-32 lg:flex lg:h-screen lg:overflow-y-hidden")
+main(class="pt-20 lg:pt-32 lg:flex lg:h-screen lg:overflow-y-hidden")
   div(class="lg:w-2/3 lg:screen lg:overflow-y-scroll py-24 lg:py-10 px-10")
     p(v-if="noResults" class="text-center text-4xl") No hay Productos
     div(

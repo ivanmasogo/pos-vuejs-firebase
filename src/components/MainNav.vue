@@ -11,9 +11,9 @@ header(class="px-10 py-5 bg-gray-700 flex flex-col lg:flex-row gap-5 lg:items-ce
   div
     Logo
     div(class="flex gap-5 text-white")
-      h2(class="text-lg font-extrabold") Filtros: 
+      h2(class="text-lg font-extrabold hidden lg:block") Filtros: 
       div(
-        class="flex items-center gap-2"
+        class="flex items-center gap-2 mt-2 lg:mt-0"
         v-for="category in products.categories"
         :key="category.id"
       )

@@ -11,7 +11,7 @@ defineProps({
 
 <template lang="pug">
 RouterLink(
-  class="rounded bg-green-400 hover:bg-green-500 font-bold py-2 px-10"
+  class="rounded bg-green-400 hover:bg-green-500 font-bold py-1 px-3 lg:py-2 lg:px-10"
   :to="{name: to}"  
 )
   slot

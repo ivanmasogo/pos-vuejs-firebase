@@ -15,7 +15,7 @@ const formatter = ref({
 
 <template lang="pug">
 div
-  h1(class="text-4xl font-black my-10") Resumen de Ventas
+  h1(class="text-4xl font-black my-10 text-center lg:text-start") Resumen de Ventas
   div(class="md:flex md:items-start gap-5 ")
     div(class="md:w-1/2 lg:w-1/3 flex justify-center p-5 bg-transparent")
       VueTailwindDatePicker(

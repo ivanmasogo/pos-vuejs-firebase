@@ -47,7 +47,7 @@ const submitHandler = async data => {
 </script>
 
 <template lang="pug">
-div.mt-10
+div.mt-10.mx-5
   Link(to="products") Volver
 
   h1.text-4xl.my-10.font-extrabold Editar Producto

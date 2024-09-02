@@ -8,7 +8,7 @@ const products = useProductsStore()
 </script>
 
 <template lang="pug">
-div 
+div.mt-10.mx-5
   Link(to="new-product") Nuevo Producto
   h1(class="text-4xl font-black my-10") Productos
   p(v-if="products.noResults") No hay resultados
